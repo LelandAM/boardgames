@@ -136,31 +136,6 @@ ul.no-bullets {
   padding: 20px;
   margin: 20px;
 }
-
-.ratings {
-  position: relative;
-  float: left;
-  top: 150px;
-  left: 150px;
-}
-
-#comment-text-area{
-  width: 800px;
-  color: black;
-}
-
-.comment-content {
-  border: solid 1px black;
-  width: 600px;
-  height: 200px;
-  margin: 10px auto;
-  background-color: beige;
-  overflow: auto;
-  padding: 20px;
-  border-radius: 10px;
-  clear: both;
-}
-
 .votes-location {
   float: left;
   position: relative;
@@ -184,10 +159,36 @@ ul.no-bullets {
 }
 
 #comments {
-  float: right;
+  position: relative;
+  margin: 20px auto 0 auto;
+}
+#ratings {
+  position: relative;
+  margin: 20px auto 0 auto;
+  padding: 10px 0 0 0;
   text-align: center;
 }
+#ratings h3{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
 
+#comment-text-area{
+  width: 800px;
+  color: black;
+}
+.comment-content {
+  border: solid 1px black;
+  width: 600px;
+  height: 200px;
+  margin: 10px auto;
+  background-color: beige;
+  overflow: auto;
+  padding: 20px;
+  border-radius: 10px;
+  clear: both;
+}
 .tag-links {
   margin: auto;
   padding: 20px;

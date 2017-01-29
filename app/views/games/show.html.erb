@@ -20,7 +20,7 @@
   <span class='show-desc'><%= clean_html(@game.description) %></span>
 
 
-  <div class="ratings">
+  <div id="ratings">
   <h3>Average Rating: <%= @average_rating %></h3>
   <% if @prev_rating %>
       <p>You rated this game <%= @prev_rating.rating %> </p>
